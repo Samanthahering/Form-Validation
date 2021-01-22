@@ -16,7 +16,8 @@ class Doctor extends Mouth{
     }
 }
 
-//only doctors and the man have access to the methods
+//only the doctor and the man have access to the man's methods
+//the doctor also has access to his own methods
 // let man = new Mouth('John')
 // man.open()
 // man.close()
